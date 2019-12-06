@@ -63,3 +63,15 @@ In a Max-Heap the key present at the root node must be greatest among the keys p
 #### 2. Min-Heap: 
 In a Min-Heap the key present at the root node must be minimum among the keys present at all of it’s children. The same property must be recursively true for all sub-trees in that Binary Tree.
 ![MinHeapMaxHeap](MinHeapAndMaxHeap.png)
+
+### 5. Ternary Search Tree
+A ternary search tree is a special trie data structure where the child nodes of a standard trie are ordered as a binary search tree. Ternary search tree can be used as an associative map structure with the ability for incremental string search.
+##### Representation of ternary search trees:
+Unlike trie(standard) data structure where each node contains 26 pointers for its children, each node in a ternary search tree contains only 3 pointers:
+* The left pointer points to the node whose value is less than the value in the current node.
+* The equal pointer points to the node whose value is equal to the value in the current node.
+* The right pointer points to the node whose value is greater than the value in the current node.
+![TernarySearchTree](TernarySearchTree1.png) ![TernarySearchTree](TernarySearchTree2.png) ![TernarySearchTree](TernarySearchTree3.png)
+##### Applications of ternary search trees:
+* Auto complete feature. Ternary search trees are efficient for queries like “Given a word, find the next word in dictionary(near-neighbor lookups)” or “Find all telephone numbers starting with 9342 or “typing few starting characters in a web browser displays all website names with this prefix”
+*  Used in spell checks: Ternary search trees can be used as a dictionary to store all the words. Once the word is typed in an editor, the word can be parallely searched in the ternary search tree to check for correct spelling.

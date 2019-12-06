@@ -72,6 +72,7 @@ Unlike trie(standard) data structure where each node contains 26 pointers for it
 * The equal pointer points to the node whose value is equal to the value in the current node.
 * The right pointer points to the node whose value is greater than the value in the current node.
 ![TernarySearchTree](TernarySearchTree1.png) ![TernarySearchTree](TernarySearchTree2.png) 
+
 Another Example 
 ![TernarySearchTree](TernarySearchTree3.png)
 ##### Applications of ternary search trees:

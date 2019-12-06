@@ -8,10 +8,10 @@ Let's make it interesting
 To answer why DSA are important? It's because, they are what you do after you've become a computer scientist... As you can guess, the most we can optimize is the 2nd step, which is where we have Data structures and algorithm.
 
 ## Types of Data Structures.
-### 1. Linked List.
+### 1. Linked List Data Structure.
 * It's a linear data structure where each element is a separate object. Each element (we will call it a node) of a list is comprising of two items - the data and a reference to the next node. The last node has a reference to null. The entry point into a linked list is called the head of the list.
 
-### 2. Binary Search Tree Algorithm.
+### 2. Binary Search Tree Algorithm Data Structure.
 * The recursive structure of a BST yields a recursive algorithm. Searching in a BST has ```O(h)``` worst-case runtime complexity, where h is the height of the tree. Since s binary search tree with n nodes has a minimum of ```O(log n)``` levels, it takes at least ```O(log n)``` comparisons to find a particular node.
 
 #### Binary Search Tree, is a node-based binary tree data structure which has the following properties:
@@ -22,7 +22,7 @@ To answer why DSA are important? It's because, they are what you do after you've
  
 ![BSTSearch](BSTSearch.png)
 
-### 3. AVL Trees (Adelson-Velskii and Landis)
+### 3. AVL Trees (Adelson-Velskii and Landis) Data Structure
 AVL tree is a self-balancing Binary Search Tree (BST) where the difference between heights of left and right subtrees cannot be more than one for all nodes. An Example Tree that is an AVL Tree. The above tree is AVL because differences between heights of left and right subtrees for every node is less than or equal to 1.
 
 #### Insertion
@@ -54,3 +54,12 @@ So BST property is not violated anywhere.
 ```
 Another example of self-balancing tree.
 ![AVL_Insertion](AVL_Insertion.jpg)
+
+### 4. Heap Data Structure
+A Heap is a special Tree-based data structure in which the tree is a complete binary tree. Generally, Heaps can be of two types: For example, if is the parent node of , then the value of follows a specific order with respect to the value of and the same order will be followed across the tree.
+![Heap](HeapValid.png)
+#### 1. Max-Heap: 
+In a Max-Heap the key present at the root node must be greatest among the keys present at all of it’s children. The same property must be recursively true for all sub-trees in that Binary Tree.
+#### 2. Min-Heap: 
+In a Min-Heap the key present at the root node must be minimum among the keys present at all of it’s children. The same property must be recursively true for all sub-trees in that Binary Tree.
+![MinHeapMaxHEap](MinHeapAndMaxHEap.png)

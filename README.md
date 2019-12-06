@@ -73,8 +73,7 @@ Unlike trie(standard) data structure where each node contains 26 pointers for it
 * The right pointer points to the node whose value is greater than the value in the current node.
 ![TernarySearchTree](TernarySearchTree1.png) ![TernarySearchTree](TernarySearchTree2.png) 
 
-Another Example 
-![TernarySearchTree](TernarySearchTree3.png)
+Another Example: ![TernarySearchTree](TernarySearchTree3.png)
 ##### Applications of ternary search trees:
 * Auto complete feature. Ternary search trees are efficient for queries like “Given a word, find the next word in dictionary(near-neighbor lookups)” or “Find all telephone numbers starting with 9342 or “typing few starting characters in a web browser displays all website names with this prefix”
 *  Used in spell checks: Ternary search trees can be used as a dictionary to store all the words. Once the word is typed in an editor, the word can be parallely searched in the ternary search tree to check for correct spelling.

@@ -71,7 +71,10 @@ Unlike trie(standard) data structure where each node contains 26 pointers for it
 * The left pointer points to the node whose value is less than the value in the current node.
 * The equal pointer points to the node whose value is equal to the value in the current node.
 * The right pointer points to the node whose value is greater than the value in the current node.
-![TernarySearchTree](TernarySearchTree1.png) ![TernarySearchTree](TernarySearchTree2.png)  Another Example, Insert(): cup, cape, bat, map, and can 
+![TernarySearchTree](TernarySearchTree1.png) ![TernarySearchTree](TernarySearchTree2.png)  
+
+Another Example, Insert(): cup, cape, bat, map, and can 
+
 ![TernarySearchTree](TernarySearchTree3.png)
 ##### Applications of ternary search trees:
 * Auto complete feature. Ternary search trees are efficient for queries like “Given a word, find the next word in dictionary(near-neighbor lookups)” or “Find all telephone numbers starting with 9342 or “typing few starting characters in a web browser displays all website names with this prefix”

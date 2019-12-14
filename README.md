@@ -6,7 +6,7 @@ Let's make it interesting
 #### Algorithms + Data Structures = Programs
 
 To answer why DSA are important? It's because, they are what you do after you've become a computer scientist... As you can guess, the most we can optimize is the 2nd step, which is where we have Data structures and algorithm.
-## 1. Data Structure.
+## [1. Data Structure.](https://www.datacamp.com/community/tutorials/data-structures-python)
 
 ## Types of Data Structures.
 ### 1. Linked List Data Structure.
@@ -81,7 +81,7 @@ Another Example, Insert(): cup, cape, bat, map, and can
 * Auto complete feature. Ternary search trees are efficient for queries like “Given a word, find the next word in dictionary(near-neighbor lookups)” or “Find all telephone numbers starting with 9342 or “typing few starting characters in a web browser displays all website names with this prefix”
 *  Used in spell checks: Ternary search trees can be used as a dictionary to store all the words. Once the word is typed in an editor, the word can be parallely searched in the ternary search tree to check for correct spelling.
 
-## 2. [Graph Theory](https://github.com/RocqJones/py_data_structures_and_algorithm/blob/master/Graph_Algorithm/README.md).
+## [2. Graph Theory.](https://github.com/RocqJones/py_data_structures_and_algorithm/blob/master/Graph_Algorithm/README.md)
 ### 1. Breadth-First-Search (BFS)
 * In BFS we visit each vertex exactly once. Therefore, we visit each neighbour vertex with their preciding neighbours.
 Algorithm Complexity Time: ```O(V+E)``` V - Vertex and E - Edge.

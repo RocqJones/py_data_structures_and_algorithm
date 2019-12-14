@@ -17,9 +17,6 @@ Graph is a data structure which is used extensively in our real-life.
 4. Graph theory is also used to study molecules in chemistry and physics.
 
 ### Characteristics of graphs:
-
-![GraphAlgorithm](types_of_graphs.jpg)
-
 #### 1. Adjacent node: 
 A node ‘v’ is said to be adjacent node of node ```u``` if and only if there exists an edge between ```u``` and ```v```.
 #### 2. Degree of a node: 
@@ -36,6 +33,9 @@ A path is simple if all the nodes are distinct,exception is source and destinati
 A node with degree 0 is known as isolated node.Isolated node can be found by Breadth first search(BFS). It finds its application in LAN network in finding whether a system is connected or not.
 
 ### Types of Graphs.
+
+![GraphAlgorithm](types_of_graphs.jpg)
+
 #### 1. Directed graph:
 A graph in which the direction of the edge is defined to a particular node is a directed graph. 
 * Directed Acyclic graph: It is a directed graph with no cycle.For a vertex ‘v’ in DAG there is no directed edge starting and ending with vertex ‘v’.
